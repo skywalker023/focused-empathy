@@ -3,7 +3,7 @@
 ![figure](images/model.png)
 
 **Official PyTorch implementation and EmoCause evaluation set of our EMNLP 2021 paper 💛**<br>
-[Hyunwoo Kim](https://hyunw.kim), [Byeongchang Kim](https://bckim92.github.io), and [Gunhee Kim](https://vision.snu.ac.kr/gunhee). Perspective-taking and Pragmatics for Generating Empathetic Responses Focused on Emotion Causes. _EMNLP_, 2021 [[Paper coming soon!]]()
+[Hyunwoo Kim](https://hyunw.kim), [Byeongchang Kim](https://bckim92.github.io), and [Gunhee Kim](https://vision.snu.ac.kr/gunhee). Perspective-taking and Pragmatics for Generating Empathetic Responses Focused on Emotion Causes. _EMNLP_, 2021 [[Paper]](https://arxiv.org/abs/2109.08828)
 
 * **TL;DR**:
 In order to express deeper empathy in dialogues, we argue that responses should focus on the cause of emotions.
@@ -14,7 +14,7 @@ We also propose a _pragmatics-based_ method for generating responses focused on 
 
 ## Reference
 
-If you use the materials in this repository as part of any published research, we ask you to cite the following [paper]():
+If you use the materials in this repository as part of any published research, we ask you to cite the following [paper](https://arxiv.org/abs/2109.08828):
 
 ```bibtex
 @inproceedings{Kim:2021:empathy,
@@ -46,7 +46,7 @@ and activate it with
 
 ```bash
 conda activate focused-empathy
-python -m spacey download en
+python -m spacy download en
 ```
 
 ## EmoCause evaluation set for weakly-supervised emotion cause recognition
