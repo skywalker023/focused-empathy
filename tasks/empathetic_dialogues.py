@@ -21,10 +21,10 @@ DEFAULT_REMOVE_POLITICAL_CONVOS = False
 
 RESOURCES = [
     DownloadableFile(
-        '10md_XMkzMxDWlN3hKi-vYqofyMcNFtLx',
+        'https://drive.google.com/uc?id=10md_XMkzMxDWlN3hKi-vYqofyMcNFtLx&export=download&confirm=t',
         'json_empatheticdialogues.tar.gz',
         'fb6c40e257c838382aa216a1f2ea70aa3f4eae0f78f5948dc3336f19ebde2406',
-        zipped=True, from_google=True,
+        zipped=True, from_google=False,
     )
 ]
 

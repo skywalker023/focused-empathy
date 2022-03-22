@@ -13,16 +13,16 @@ from from_epitome.models import (
 
 RESOURCES = [
     build_data.DownloadableFile(
-        '1P3Gd4uEzH-SS0L9K5TOktsPlR9rKU5sv',
+        'https://drive.google.com/uc?id=1P3Gd4uEzH-SS0L9K5TOktsPlR9rKU5sv&export=download&confirm=t',
         'finetuned_EX.pth',
         '4f43ceb2526e008a2093856208abb878f14236dd54e4fdcdfdd4ccbeb9c08178',
-        zipped=False, from_google=True,
+        zipped=False, from_google=False,
     ),
     build_data.DownloadableFile(
-        '1Ta5PvUV-UFFWUa_WmyT0YFYez_XL6bb2',
+        'https://drive.google.com/uc?id=1Ta5PvUV-UFFWUa_WmyT0YFYez_XL6bb2&export=download&confirm=t',
         'finetuned_IP.pth',
         'e80d1bcfb75f7046961ed71cfd2eada2d939f7f1191e169b0b4aa68e9b6054dc',
-        zipped=False, from_google=True,
+        zipped=False, from_google=False,
     ),
 ]
 

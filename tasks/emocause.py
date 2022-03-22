@@ -10,10 +10,10 @@ from utils.etc_utils import EMOTION_LABELS
 
 RESOURCES = [
     DownloadableFile(
-        '1LR4B47Fna_l63G1X4DZtuttG-GrinnaY',
+        'https://drive.google.com/uc?id=1LR4B47Fna_l63G1X4DZtuttG-GrinnaY&export=download&confirm=t',
         'emocause.zip',
         'f490361039a98ae13a028ae3c7117ae94165fdbf771eb75d6026b63ec9d12a11',
-        zipped=True, from_google=True,
+        zipped=True, from_google=False,
     ),
 ]
 nlp = spacy.load("en_core_web_sm")
