@@ -8,10 +8,10 @@ from parlai.utils.logging import logging
 
 RESOURCES = [
     build_data.DownloadableFile(
-        '1WwSy0D1KzhhOOpXmBRQMJzp0aJ2K0bDv',
+        'https://drive.google.com/uc?id=1WwSy0D1KzhhOOpXmBRQMJzp0aJ2K0bDv&export=download&confirm=t',
         'finetuned_blender.tar.gz',
         '9eaa85dd6c7d2b7f6eb0fd70ff7e2977730ebe0252dd1740029664424311c45a',
-        zipped=True, from_google=True,
+        zipped=True, from_google=False,
     ),
 ]
 

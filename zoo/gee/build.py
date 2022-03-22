@@ -9,10 +9,10 @@ from parlai.utils.logging import logging
 
 RESOURCES = [
     build_data.DownloadableFile(
-        '1TEKp3YRowAZju4UPXOSufqzU6j6_Z4wy',
+        'https://drive.google.com/uc?id=1TEKp3YRowAZju4UPXOSufqzU6j6_Z4wy&export=download&confirm=t',
         'gee_v1.tar.gz',
         'af0584e3c376dd364af0bbc122fea7303b9af52556f4dcbb0fbe8d6a136c0b2a',
-        zipped=True, from_google=True,
+        zipped=True, from_google=False,
     ),
 ]
 
